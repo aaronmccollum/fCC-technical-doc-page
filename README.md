@@ -1,2 +1,2 @@
-# fCC-technical-doc-page
+# fCC Technical Documentation Page
 Technical Documentation Page for freeCodeCamp HTML/CSS course
