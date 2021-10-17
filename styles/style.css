@@ -1,0 +1,70 @@
+body {
+    display: flex;
+    flex-direction: row;
+    margin: 20px 8%;
+}
+  
+/* --- NAVBAR LINKS --- */
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+}
+  
+.nav-link {
+    border-radius: 5px;
+    height: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    transition: 0.25s ease;
+}
+  
+.nav-link:hover {
+    background-color: #C5C5C5;
+    font-size: 22px;
+}
+  
+.navbar-container {
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px;
+    position: sticky;
+    top: 0;
+}
+  
+/* --- MAIN LINKS --- */
+main {
+    width: 750px;
+    font-family: 'Roboto', sans-serif;
+    padding: 33px 15px 0 15px;
+}
+  
+.section-header {
+    font-size: 33px;
+}
+  
+.section-paragraph {
+    font-size: 17px;
+}
+  
+/* --- Media Query for Mobile --- */
+@media only screen and (max-width: 500px) {
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    main {
+        width: 100%;
+    }
+    
+    .nav-link {
+        font-size: 25px;
+        padding: 15px;
+    }
+    
+    #navbar {
+        align-items: flex start;
+        position: static;
+    }
+}
